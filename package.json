@@ -1,0 +1,35 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "Just for test react develop environment,Independent of server!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack ./entry.js bundle.js && node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pickdebug/react-cli.git"
+  },
+  "keywords": [
+    "react-cli"
+  ],
+  "author": "Yin_P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pickdebug/react-cli/issues"
+  },
+  "homepage": "https://github.com/pickdebug/react-cli#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
