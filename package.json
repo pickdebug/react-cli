@@ -4,7 +4,7 @@
   "description": "Just for test react develop environment,Independent of server!",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack ./entry.js bundle.js && node_modules/.bin/webpack-dev-server"
+    "dev": "node_modules/.bin/webpack-dev-server --progress --colors --inline"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
   "homepage": "https://github.com/pickdebug/react-cli#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.2",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
